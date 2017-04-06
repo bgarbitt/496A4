@@ -8,16 +8,16 @@ from pattern import patIndex
 NUM_SIMPLE_FEATURE = 26
 
 FeBasicFeatures = {
-    "FE_PASS_NEW": 0,                    # pass, previous move was not pass
-    "FE_PASS_CONSECUTIVE": 1,            # pass, previous move was also pass
-    "FE_CAPTURE": 2,           # String contiguous to new string in atari
-    "FE_ATARI_KO": 3,                   # Atari when there is a ko
-    "FE_ATARI_OTHER": 4,                # Other atari
+    "FE_PASS_NEW": 0,					# pass, previous move was not pass
+    "FE_PASS_CONSECUTIVE": 1,			# pass, previous move was also pass
+    "FE_CAPTURE": 2,           			# String contiguous to new string in atari
+    "FE_ATARI_KO": 3,					# Atari when there is a ko
+    "FE_ATARI_OTHER": 4,				# Other atari
     "FE_SELF_ATARI": 5,
     "FE_LINE_1": 6,
     "FE_LINE_2": 7,
     "FE_LINE_3": 8,
-    "FE_DIST_PREV_2": 9,                # d(dx,dy) = |dx|+|dy|+max(|dx|,|dy|)
+    "FE_DIST_PREV_2": 9,				# d(dx,dy) = |dx|+|dy|+max(|dx|,|dy|)
     "FE_DIST_PREV_3": 10,
     "FE_DIST_PREV_4": 11,
     "FE_DIST_PREV_5": 12,
